@@ -34,7 +34,7 @@ else:
 			print (linea)
 		else:
 			#imprime y traduce los tripletes a aminoacidos
-			linea=linea.strip();
+			linea=linea.strip()
 			if len(linea) % 3 == 0:
 				for i in range(0, len(linea), 3):
 					triplete = linea[i: i + 3]
