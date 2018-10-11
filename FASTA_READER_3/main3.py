@@ -20,7 +20,7 @@ else:
 			print (linea)
 		else:
 			#si no, caracter por caracter va buscando el caracter en el diccionario y va introduciendo los tripletes, y los va imprimiendo
-			linea=linea.replace('\n','')
+			linea=linea.strip()
 			for i in linea:
 				adn += Aminoacidos[i]
 			print (adn)
